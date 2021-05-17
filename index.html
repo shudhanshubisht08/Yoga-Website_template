@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="aos.css" />
@@ -17,11 +18,14 @@
 
 
     <!-- nav bar starts -->
-    <div class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
             <a href="index.html" class="navbar-brand">Sd Mantra</a>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-lg-auto">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav" aria-controls="#myNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>Menu
+            </button>
+            <div class="collapse navbar-collapse" id="myNav">
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a href="#home" class="nav-link smoothScroll">Home</a>
                     </li>
@@ -38,9 +42,9 @@
                         <a href="#class" class="nav-link smoothScroll">Classes</a>
                     </li>
 
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a href="#schedule" class="nav-link smoothScroll">Schedules</a>
-                    </li>
+                    </li> -->
 
                     <li class="nav-item">
                         <a href="#team" class="nav-link smoothScroll">Our Team</a>
@@ -56,7 +60,7 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </nav>
 
 
     <!-- navbar ends -->
@@ -386,7 +390,7 @@
 
 
     <!-- section 6 starts -->
-    <section class="classtime-section class-time-table spad" id="schedule">
+    <!-- <section class="classtime-section class-time-table spad" id="schedule">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -541,7 +545,7 @@
                 </table>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <!-- section 6 ends -->

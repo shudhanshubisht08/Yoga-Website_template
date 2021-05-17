@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 :root {
-  --primary-color: #e8505b;
+  --primary-color: #A683E3;
   --white-color: #ffffff;
   --dark-color: #171819;
   --about-bg-color: #f9f9f9;
@@ -811,6 +811,7 @@ strong {
   vertical-align: middle;
   border-style: none;
   max-width: 100%;
+  margin-bottom: 10px;
 }
 
 .event-item .ei-text {

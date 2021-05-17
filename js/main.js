@@ -20,7 +20,7 @@
       var mixer = mixitup(containerEl);
     }
 
-    $(".blog-gird").c({
+    $(".blog-gird").masonry({
       itemSelector: ".grid-item",
       columnWidth: ".grid-sizer",
     });
